@@ -61,5 +61,5 @@ Parancs | Leírás
 
 Parancs | Leírás
 --- | ---
-prompt "természetes nyelven leírt parancs" (FONTOS!!! AI-nak a parancsot kapcsos zárójelek közt kell megadni!) | Természetes nyelven leírt parancsot értelmezi az AI és egy parancssal válaszol
+prompt "természetes nyelven leírt parancs" | Természetes nyelven leírt parancsot értelmezi az AI és egy parancssal válaszol FONTOS!!! AI-nak a parancsot kapcsos zárójelek közt kell megadni! -> prompt "parancs"
 simulation | adatokkal tölti fel az adatbázist
