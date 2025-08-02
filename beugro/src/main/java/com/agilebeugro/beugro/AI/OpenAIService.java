@@ -33,6 +33,9 @@ public class OpenAIService {
         this.applicationService = applicationService;
     }
 
+    /**
+     * Don't Forget to put your API key below
+     * */
     OpenAIClient client = OpenAIOkHttpClient.builder().apiKey("sk-").build();
 
     public String prompt(String input) {
